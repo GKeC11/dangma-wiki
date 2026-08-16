@@ -18,7 +18,13 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '游戏目录', link: '/games/' },
       { text: '战锤3', link: '/games/total-war-warhammer-3/' },
-      { text: '震旦', link: '/games/total-war-warhammer-3/cathay/' }
+      {
+        text: '势力攻略',
+        items: [
+          { text: '震旦', link: '/games/total-war-warhammer-3/cathay/' },
+          { text: '色孽', link: '/games/total-war-warhammer-3/slaanesh/' }
+        ]
+      }
     ],
     sidebar: {
       '/games/': [
@@ -68,6 +74,14 @@ export default defineConfig({
             { text: '妙影流派', link: '/games/total-war-warhammer-3/cathay/characters/miao-ying' },
             { text: '司天丞', link: '/games/total-war-warhammer-3/cathay/characters/astromancer' },
             { text: '普通领主对比', link: '/games/total-war-warhammer-3/cathay/characters/generic-lords' }
+          ]
+        },
+        {
+          text: '色孽',
+          collapsed: false,
+          items: [
+            { text: '势力首页', link: '/games/total-war-warhammer-3/slaanesh/' },
+            { text: '迪卡拉：战役与战斗攻略', link: '/games/total-war-warhammer-3/slaanesh/characters/dechala' }
           ]
         }
       ]
