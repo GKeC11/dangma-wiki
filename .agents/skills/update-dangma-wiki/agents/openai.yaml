@@ -1,0 +1,4 @@
+interface:
+  display_name: "更新 Dangma Wiki"
+  short_description: "维护攻略内容、导航、构建并发布 Dangma Wiki"
+  default_prompt: "使用 $update-dangma-wiki 更新 Wiki 内容并完成构建验证。"
