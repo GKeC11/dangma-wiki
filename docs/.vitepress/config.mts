@@ -81,7 +81,12 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '势力首页', link: '/games/total-war-warhammer-3/slaanesh/' },
-            { text: '迪卡拉：战役与战斗攻略', link: '/games/total-war-warhammer-3/slaanesh/characters/dechala' }
+            { text: '领主与英雄流派', link: '/games/total-war-warhammer-3/slaanesh/characters/' },
+            { text: '迪卡拉：战役与战斗攻略', link: '/games/total-war-warhammer-3/slaanesh/characters/dechala' },
+            { text: '全部英雄流派与加点', link: '/games/total-war-warhammer-3/slaanesh/characters/heroes' },
+            { text: '迪卡拉战役经营', link: '/games/total-war-warhammer-3/slaanesh/campaign/' },
+            { text: '教团管理', link: '/games/total-war-warhammer-3/slaanesh/campaign/cults' },
+            { text: '领地类型与建筑管理', link: '/games/total-war-warhammer-3/slaanesh/campaign/settlements' }
           ]
         }
       ]
